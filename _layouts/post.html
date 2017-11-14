@@ -1,37 +1,16 @@
-<!DOCTYPE html>
-<html lang="{{ site.lang | default: "en-US" }}">
-  <head>
-    <meta charset='utf-8'>
-    <meta http-equiv="X-UA-Compatible" content="chrome=1">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="stylesheet" href="{{ '/assets/css/style.css?v=' | append: site.github.build_revision | relative_url }}">
+---
+layout: default
+---
 
-{% seo %}
-  </head>
-
-  <body>
-
-    {% include header.html %}
+{% assign post = page %}
 
     <div class="container">
       <article id="main_content">
         <h2>{{ page.title }}</h2>
 
-        {{ content }}
+        {{ content }}        
         
-        <div class="highlight">
-            <span class="gi">./</span><span class="c">{{ page.category }}</span>
-            <span class="ss">@</span>
-            <span class="c">{{ page.date | date_to_long_string }}</span>
-            {% if page.tags %}
-                <span class="c">[{{ page.tags | array_to_sentence_string }}]</span>
-            {% endif %}
-        </div>
+        {% include postfooter.html %}
         <p />
       </article>
     </div>
-
-    {% include google.html %}
-
-  </body>
-</html>

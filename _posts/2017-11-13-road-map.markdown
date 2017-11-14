@@ -1,0 +1,21 @@
+---
+layout: post
+title:  "Road Map"
+category: blog
+tags: [ramblings]
+---
+
+I was able to find some time to tinker with this site, and a few project ideas I have. Most of the initial project idea's are _me too_ projects. But I think they'll be much needed experience builders for me.
+
+1. **Garage door controller**  
+    There are a lot of these around on the internet but my plan is for it to be powered by Alexa, have a web interface, and also have some sort of timeout so my door closes automatically if I forget to shut it.
+
+1. **Medocino motor**  
+    [These things](https://en.wikipedia.org/wiki/Mendocino_motor) are just cool as hell. I've heard they're really hard to get working, so its possible this project will never finish.
+
+1. **Bathroom stall notifier**  
+    The place I work has one stall and about 23 people using it. It's not pretty. So, it would be nice if there was a website that was updated with the status of the one and only pooper. Then I wouldn't have to get up from my desk only to suffer rejection after rejection.
+
+That's what I'm thinking for now. I have parts on order for all of this stuff, so the posts should be rolling in soon.
+
+I've also made a few tweaks to the site layout. Again, these early posts are more for just testing out my site layouts. On the off chance anyone is read this, thanks.

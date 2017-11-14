@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="container">
+    <section id="main_content">
+        <h1>Filed Under ./{{ page.tag }}</h1>
+
+        {% for post in site.categories[page.tag] %}
+            {% include postpreview.html %}
+        {% endfor %}
+    </section> 
+</div>

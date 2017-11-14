@@ -1,0 +1,10 @@
+---
+---
+
+@import "{{ site.theme }}";
+
+header h1 > a, footer.highlight .gi a {
+    text-decoration: none;
+    color: inherit;
+    text-shadow: none;
+}

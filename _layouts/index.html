@@ -1,0 +1,13 @@
+---
+layout: default
+---
+
+<div class="container">
+    <section id="main_content">
+        <ul>
+            {% for post in site.posts %}
+                {% include postpreview.html %}
+            {% endfor %}
+        </ul>
+    </section>
+</div>

@@ -1,0 +1,8 @@
+    <footer class="highlight">
+        <span class="gi">./<a href="/category/{{post.category}}">{{ post.category }}</a></span>
+        <span class="ss">@</span>
+        <span class="c">{{ post.date | date_to_long_string }}</span>
+        {% if post.tags %}
+            <span class="c">[{{ post.tags | array_to_sentence_string }}]</span>
+        {% endif %}
+    </footer>
