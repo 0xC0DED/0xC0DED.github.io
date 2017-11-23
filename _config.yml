@@ -30,7 +30,7 @@ plugins:
   - jekyll-feed
 
 show_downloads:
-google_analytics:
+google_analytics: "UA-110136195-1"
 
 collections:
   category:
