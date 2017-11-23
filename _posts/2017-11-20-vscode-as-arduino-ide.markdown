@@ -40,8 +40,14 @@ Launch the board config to setup the specific ESP8266 you are using. I'm current
 
 To connect the board to your computer so you can use the serial console and upload images, you'll need an [FTD cable](https://www.adafruit.com/product/70). Uploads seem to work best at 115200 baud.
 
+You can access the board config, serial monitor, and serial port from the status bar also.
+
+![VSCode Status Bar Screenshot]({{ "/assets/vscode-statusbar-arduino.png" }})
+
 After getting this all setup, there was one annoying thing I noticed. For some reason, all the arduino functions had red squiggly lines under them. VSCode said that it couldn't find any references to those identifiers. After some playing around, and some googling, I found a workaround posted in [an issue for the VSCode C++ extension](https://github.com/Microsoft/vscode-cpptools/issues/743#issuecomment-302922546). Just open your VSCode settings (press `ctrl + ,`) and add the following line:
 
     "C_Cpp.intelliSenseEngine": "Tag Parser"
 
-This tells VSCode to use the older intellisense engine for code parsing. As of now, this seems to work for me.
+This tells VSCode to use the older intellisense engine for code parsing. As of now, this seems to work for me. There appear to be [other workarounds](https://github.com/Microsoft/vscode-cpptools/issues/743) by adding the arduino library paths to the `c\_cpp\_properties.json` file. I'm not sure I want to update paths every time a library isn't found.
+
+I was surprised how full featured the ardunio extension is. I'm excited that I have yet another reason to use VSCode.
