@@ -19,7 +19,7 @@ Or you can press `ctrl + p` to open the command palette and type the following:
 
     ext install vscode-arduino
 
-Once you have it installed, you have to tell it where you installed the original Arduino IDE so it can find all the libraries. You can configure this by pressing `ctrl + ,` to open the settings window. Add the following two lines to the user settings section:
+Once you have it installed, you have to tell it where you installed the original Arduino IDE so it can find all the libraries. You can configure this by pressing `ctrl + ,` to open the settings window. Add the following two lines to the user settings section (make sure you edit the arduino.path to be the path where you installed in on your machine):
     
     "arduino.path": "/home/0xc0ded/Public/arduino/arduino-1.8.5",
     "arduino.additionalUrls": "http://arduino.ESP8266.com/stable/package_ESP8266com_index.json"
