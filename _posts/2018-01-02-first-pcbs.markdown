@@ -2,6 +2,7 @@
 layout: post
 title:  "Bouncer: First PCBs!"
 category: bouncer
+image: /assets/bouncer-board-v0-1.jpg
 tags: [ESP8266, hc-sr04, iot, fritzing, pcb]
 ---
 

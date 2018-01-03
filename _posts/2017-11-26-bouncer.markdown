@@ -2,6 +2,7 @@
 layout: post
 title:  "Bouncer: Yet Another IoT Garage Door Opener"
 category: bouncer
+image: /assets/pcb-bouncer.png
 tags: [ESP8266, hc-sr04, alexa, iot, fritzing, breadboard, pcb]
 ---
 

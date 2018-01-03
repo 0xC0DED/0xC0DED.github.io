@@ -2,6 +2,7 @@
 layout: post
 title:  "VSCode as Arduino IDE"
 category: blog
+image: /assets/vscode-commandpalette-arduino.png
 tags: [ramblings, vscode, arduino, ESP8266]
 ---
 
