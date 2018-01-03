@@ -29,4 +29,4 @@ I was able to use that circuit to open and close the door, and turn off and on t
 
 ![Bouncer PCB]({{ "/assets/pcb-bouncer.png" | absolute_url }})
 
-Those should be delivered real soon. In the mean time, I'm working on the code to drive everything. That will be my next post.
+Those should be delivered real soon. In the mean time, I'm working on the code to drive everything.
